@@ -22,28 +22,28 @@ button:focus {
   background-color: var(--evidentiere);
 }
 
-header {
+.set_header {
   font-size: 14px;
   font-weight: 500;
 }
 
-footer {
+.set_footer {
   font-size: 14px;
   font-weight: 400;
 }
 
-h1 {
+.titlul_principal {
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
 }
 
-h2 {
+.subtitle {
   font-size: 36px;
   font-weight: 700;
 }
 
-h5 {
+.descriptiontitle {
   font-weight: 700;
 }
 
@@ -69,4 +69,9 @@ p {
 .textgri {
   color: #757575;
   font-weight: 400;
+}
+
+/*Am adăugat culoare pe fundal în prima secțiune, pentru a se observa și titlul*/
+.topsection{
+  background-color: #2F303A 
 }
